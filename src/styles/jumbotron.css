@@ -1,0 +1,28 @@
+.jumbotron {
+	display: flex;
+	align-items: center;
+	min-height: 550px;
+	width: 100%;
+	text-align: center;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../public/images/heros/hero-image_2-large.jpg');
+	background-position: center;
+	background-size: cover;
+	background-color: Black !important
+}
+.inner-jumbotron {
+	margin: 0 auto;
+	max-width: 800px
+}
+.title-jumbotron {
+	color: #fff;
+	font-weight: 600;
+	font-size: 36px;
+	text-shadow: 1px 1px #000000;
+}
+.subtitle-jumbotron {
+	color: #fff;
+	margin-top: 16px;
+	font-size: 18px;
+	font-weight: 600;
+	text-shadow: 1px 1px #000000;
+}

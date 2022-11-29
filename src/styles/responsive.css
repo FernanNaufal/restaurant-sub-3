@@ -1,0 +1,135 @@
+@media screen and (max-width: 649px) {
+  .jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../public/images/heros/hero-image_2-small.jpg');
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .app-bar {
+    grid-template-columns: 1fr auto;
+    padding: 5px 45px;
+  }
+ 
+  .app-bar .app-bar__brand h1 {
+    font-size: 1.5em;
+  }
+ 
+  .app-bar .app-bar__menu {
+    display: none;
+  }
+ 
+  .app-bar .app-bar__navigation {
+    position: static;
+    width: 100%;
+  }
+ 
+  .app-bar .app-bar__navigation ul li {
+    display: inline-block;
+  }
+ 
+  .app-bar .app-bar__navigation ul li a {
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    margin: 0;
+  }
+ 
+  .catalog_list {
+    grid-template-columns: 1fr 1fr;
+  }
+ 
+  .catalog {
+    grid-template-columns: auto 1fr;
+  }
+ 
+  .catalog .catalog__title {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+ 
+  .catalog .catalog__overview {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}
+ 
+@media screen and (min-width: 800px) {
+  .app-bar .app-bar__brand h1 {
+    font-size: 30px;
+  }
+}
+ 
+@media screen and (min-width: 850px) {
+  .catalog_list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .catalog .catalog__info {
+    width: 90%;
+  }
+
+  .catalog {
+    max-width: 1200px;
+    padding-top: 40px;
+  }
+
+  .catalog .catalog__poster {
+    width: 70%;
+  }
+
+  .catalog .catalog__info ul {
+    margin-left: 4%;
+  }
+}
+ 
+@media screen and (min-width: 1200px) {
+  .catalog_list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+ 
+@media screen and (min-width: 1600px) {
+  .catalog_list {
+      grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .logo_catalog, .logo_favorite, .logo_detail {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px)
+{
+.background_picture {
+  height:600px;
+  min-width: 1000px;
+}
+}
+
+
+@media screen and (min-width: 800px) {  
+.container .main_title h1 {
+  font-size: 55px;
+}
+.container .main_title h2 {
+  font-size: 28px;
+}
+}
+
+@media screen and (max-width: 580px) {
+.container .main_title h1 {
+  font-size: 25px;
+  padding-top: 15px;
+}
+.container .main_title h2 {
+  font-size: 17px;
+}
+}
+
+@media screen and (max-width: 1200px) {
+.container .main_title {
+  padding-top: 120px;
+}
+}

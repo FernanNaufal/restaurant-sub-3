@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url(footer.css);
+@import url(jumbotron.css);
+@import url(menu.css);
+@import url(navbar.css);
+@import url(responsive.css);
+
+* {
+  padding: 0;
+  margin: 0;
+}
+ 
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #eee;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+ 
+
+
+/*
+Like style
+*/ 
+.like {
+width: 55px;
+height: 55px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #ce972c;
+
+position: fixed;
+bottom: 16px;
+right: 16px;
+border-radius: 50%;
+border: 0;
+
+font-size: 18px;
+color: white;
+cursor: pointer;
+}
+ 
+
+#intro_catalog, #intro_favorite, #intro_detail {
+position: fixed;
+z-index: 999;
+left: 0;
+right: 0;
+width: 100%;
+height: 100vh;
+background-color: #161616;
+/* transition: .5s; */
+}
+
+#intro_favorite, #intro_detail {
+top: -100vh;
+}
+
+#logo-header_catalog, #logo-header_favorite, #logo-header_detail {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: #ffffff;
+}
+
+.logo_catalog, .logo_favorite, .logo_detail {
+position: relative;
+display: inline-block;
+bottom: -20px;
+opacity: 0;
+font-size: 19px;
+}
+
+.logo_catalog.active, .logo_favorite.active, .logo_detail.active {
+bottom: 0;
+opacity: 1;
+transition: ease-in-out 0.4s;
+}
+
+.logo_catalog.fade, .logo_favorite.fade, .logo_detail.fade {
+bottom: 150px;
+opacity: 0;
+transition: ease-in-out 0.4s;
+}
+
+.logo_1, .logo_2, .logo_3 {
+color: #ce972c;
+}
+
+/* 
+pembatas list restaurant */
+
+.sub_title{
+text-align: center;
+font-size: 27px;
+font-family: 'Roboto', sans-serif;
+font-weight: 600;
+color: rgba(0,0,0,.9);
+margin-top: 80px;
+}
+
+.line_small, .line_big{
+margin: 3px auto;
+width: 80px;
+border-top:  2px solid #000000;
+}
+.line_big{
+width: 200px;
+}
+
+
+
+#skip_link {
+position: absolute;
+top: -50px;
+left: 0;
+background-color: #bf1722;
+color: white;
+padding: 8px;
+z-index: 100;
+}
+#skip_link:focus {
+ top: 0;
+}

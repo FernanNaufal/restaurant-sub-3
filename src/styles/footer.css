@@ -1,0 +1,22 @@
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+    background-color: #141414;
+    color: #fff;
+    text-align: center;
+    width:100%;
+    display: block;
+    margin-top: 50px;
+    }
+    footer p{
+    font-size: 14px;
+    margin: 16px;
+    }
+    footer .center_items{
+    margin: 0vw auto;
+    }
+    footer span{
+    color: #ce972c;
+    }
+    

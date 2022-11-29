@@ -1,0 +1,157 @@
+
+.menu {
+	min-height: 100%;
+	padding: 32px;
+	
+  }
+   
+   
+   
+  /*
+	list
+  */
+   
+  .catalog_list {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 40px;
+	margin: 5 5;
+  }
+   
+   
+  /*
+	item
+  */
+   
+  .catalog-item {
+	width: 100%;
+	box-shadow: 0 8px 10px 0 #B01E68;
+	border-radius: 15px;
+	overflow: hidden;
+	background-color: white;
+	position: relative;
+  }
+   
+  .catalog-item__header {
+	position: relative;
+  }
+   
+  .catalog-item .catalog-item__header .catalog-item__header__poster {
+	width: 100%;
+	object-fit: cover;
+	height: 200px;
+  }
+   
+  .catalog-item .catalog-item__header .catalog-item__header__rating {
+	position: absolute;
+	padding: 8px;
+	bottom: 20px;
+	left: 0;
+	display: inline-block;
+	background-color: #141414;
+	color: white;
+	border-radius: 100px;
+  }
+   
+  .catalog-item .checked {
+    color: orange;
+    font-size: 1.3rem;
+    background-color: black;
+    border-radius: 100px;
+    padding: 5px 10px 5px;
+	text-align: center;
+  }
+ 
+   
+  .catalog-item .catalog-item__content {
+	padding: 5px 16px 16px 16px;
+  }
+   
+  .catalog-item .catalog-item__content h3 {
+	margin: 10px 0;
+	text-align: center;
+  }
+   
+  .catalog-item .catalog-item__content h3 a {
+	color: #ce972c;
+	text-decoration: none;
+	padding: 10px 0;
+  }
+  .catalog-item .catalog-item__content h3 a:hover {
+	color: #b37d13;
+
+  }
+   
+  .catalog-item .catalog-item__content .list_menu_desc p {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 4; 
+	-webkit-box-orient: vertical;
+	text-align: center;
+	margin-top: -30px;
+	line-height: 1.5em
+  }
+   
+   
+  /*
+	catalog
+  */
+   
+  .catalog {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 800px;
+	padding-top: 20px;
+  }
+   
+  .catalog .catalog__img {
+	width: 85%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 15px;
+  }
+  
+  .informasi___catalog h3{
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	color: rgba(0,0,0,.9);
+	margin-top: 50px;
+  }
+   
+  .catalog .informasi___catalog {
+	display: block;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+  }
+  
+  .catalog .informasi___catalog h4 {
+	font-weight: bold;
+	margin: 20px 0 2px 0;
+	font-size: 20px;
+  }
+  
+  .catalog .informasi___catalog ul {
+	display: block;
+	margin-left: 8%;
+  }
+  
+  .catalog .informasi___catalog table tr td {
+	vertical-align: top;
+  }
+  
+  .catalog .informasi___catalog table tr .review {
+	word-break: break-all;
+  }
+  
+  .catalog .informasi___catalog table tr .number_review {
+	font-weight: bold;
+  }
+  
+
+
+  
